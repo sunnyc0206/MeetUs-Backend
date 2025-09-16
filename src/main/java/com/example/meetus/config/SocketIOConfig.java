@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 @org.springframework.context.annotation.Configuration
 public class SocketIOConfig {
 
-    @Value("${socket.io.port:9092}")
+    @Value("${socket.io.port:8080}")
     private int port;
 
     @Value("${socket.io.host:0.0.0.0}")
